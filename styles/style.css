@@ -109,4 +109,52 @@
 /**Nav Style*/
 nav{
   display: flex;
+  align-items: center;
+  background-color: #F5F5F5;
+  justify-content: space-between;
+  margin: 31px 160, 39px,190px;
+}
+.nav-title{
+  font-weight: bold;
+  font-size: 32px;
+  color: #0E0E0E;
+}
+/*Shear-Style**/
+.btn-primary{
+  font-weight: 600;
+  font-size: 18px;
+  color: #006A50;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+.btn-new{
+  color: #FFFFFF;
+  background-color: #006A50;
+  font-size: 18px;
+  border-radius: 8px;
+}
+/**banner styles*/
+.banner{
+  display: flex;
+  background-color: #C6E4D6;
+  justify-content: space-between;
+  border-radius: 24px;
+  margin: 117px 59px;
+}
+.banner-content{
+  width: 1280px;
+  height: 560px;
+  margin: 59px 117px;
+}
+.banner-title{
+  font-size: 24px;
+  color: #0e0e0e50;
+}
+.banner-greetings{
+  font-weight: bold;
+  font-size: 56px;
+  color: #0E0E0E;
+}
+.banner-pic{
+  margin: 80px 59px;
 }
